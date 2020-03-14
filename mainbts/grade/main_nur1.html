@@ -80,7 +80,7 @@
     
                 <div class="row header">
                   <div class="cell">
-                    교재명
+                    주문식별번호 / 교재명
                   </div>
                   <div class="cell">
                     저자
@@ -97,11 +97,11 @@
                 </div>
     
                 <div class="row">
-                  <div class="cell" data-title="교재명">
-                    30장면으로 끝내는 스크린 영어회화 (겨울왕국)
+                  <div class="cell" data-title="주문식별번호 / 교재명">
+                   N1-1 / 30장면으로 끝내는 스크린 영어회화 (겨울왕국)
                   </div>
                   <div class="cell" data-title="저자">
-                    미상
+                    &nbsp미상
                   </div>
                   <div class="cell" data-title="교과목명 / 담당교수님">
                     영어 회화(직기) / 고수원
@@ -115,8 +115,8 @@
                 </div>
     
                 <div class="row">
-                  <div class="cell" data-title="교재명">
-                    알기쉬운 의학용어
+                  <div class="cell" data-title="주문식별번호 / 교재명">
+                    N1-2 / 알기쉬운 의학용어
                   </div>
                   <div class="cell" data-title="저자">
                     차병헌 외
@@ -133,8 +133,8 @@
                 </div>
     
                 <div class="row">
-                  <div class="cell" data-title="교재명">
-                    생애주기별 인간성장과 발달
+                  <div class="cell" data-title="주문식별번호 / 교재명">
+                    N1-3 / 생애주기별 인간성장과 발달
                   </div>
                   <div class="cell" data-title="저자">
                     방경숙 외
@@ -151,8 +151,8 @@
                 </div>
     
                 <div class="row">
-                  <div class="cell" data-title="교재명">
-                    인간이해를 위한 심리학
+                  <div class="cell" data-title="주문식별번호 / 교재명">
+                   N1-4 / 인간이해를 위한 심리학
                   </div>
                   <div class="cell" data-title="저자">
                     김이영 외
@@ -169,8 +169,8 @@
                 </div>
     
                 <div class="row">
-                  <div class="cell" data-title="교재명">
-                    인체생물학
+                  <div class="cell" data-title="주문식별번호 / 교재명">
+                    N1-5 / 인체생물학
                   </div>
                   <div class="cell" data-title="저자">
                     안태인 외
@@ -187,8 +187,8 @@
                 </div>
     
                 <div class="row">
-                  <div class="cell" data-title="교재명">
-                    컴퓨터 활용과 실습 2016
+                  <div class="cell" data-title="주문식별번호 / 교재명">
+                    N1-6 / 컴퓨터 활용과 실습 2016
                   </div>
                   <div class="cell" data-title="저자">
                     김주영
@@ -205,8 +205,8 @@
                 </div>
     
                 <div class="row">
-                  <div class="cell" data-title="교재명">
-                    "한국인의 법과 생활 2019.2월개정판"
+                  <div class="cell" data-title="주문식별번호 / 교재명">
+                    N1-7 / 한국인의 법과 생활 2019.2월개정판
                   </div>
                   <div class="cell" data-title="저자">
                     법무부
@@ -265,20 +265,20 @@ method="POST" class="spree"
     <br>
   <label>
     배송주소지
-    <textarea name="주문목록"></textarea>
+    <textarea name="배송주소지"></textarea>
     </label>
     <br>
   <label>
-    주문내용 ex) 1. 교재명 / 저자 / 출판사
-    <textarea name="주문할 교재명 / 저자 / 출판사"></textarea>
+    주문식별번호 / 총 주문수량 &nbsp;ex) N1-1, N1-7 총 2권
+    <textarea name="주문식별번호 / 총 주문수량"></textarea>
     </label>
     <br>
     <label>
-      총 주문수량 / 입금자명
-      <textarea name="총 주문수량 / 입금자명"></textarea>
+      총 주문금액 / 입금자명
+      <textarea name="총 주문금액 / 입금자명"></textarea>
       </label>  
       <br>
-  <input type="submit" value="Send">
+  <input type="submit" class="btn btn-info" value="Send">
   <br>
   <br>
 
